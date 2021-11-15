@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border:border-box;
+	
+}
+
+
+body{
+	font-family: "Karla",
+	sans-serif;
+	min-height: 100vh;
+	background-color:  hsl(204, 43%, 93%);
+	display: flex;
+    align-items: center;
+    font-size: 16px,
+
+}
+.container{
+	padding: 40px;
+	margin: auto;
+}
+
+.full-card{
+	background-color: white;
+	color: white;
+	border-radius: 7px;
+}
+
+.card1{
+	padding: 25px;
+}
+
+
+.card2{
+	background-color: hsl(179, 62%, 43%);
+	padding: 25px;
+
+}
+
+.sign{
+	margin-top: 20px;
+	width: 100%;
+	background-color:  hsl(71, 73%, 54%);
+	color: white;
+	font-size: 16px;
+}
+
+.card3{
+	background-color: hsl(179, 62%, 50%);
+	padding: 25px;
+
+}
